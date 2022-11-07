@@ -13,7 +13,7 @@ yum install docker-ce
 Docker Compose: \
 curl -L "https://github.com/docker/compose/releases/download/2.12.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-Atribuindo permissão de execução para o binario do docker-compose \ 
+Atribuindo permissão de execução para o binario do docker-compose \
 chmod +x /usr/local/bin/docker-compose
 
 Criando Link Simbolico para que não haja nenhum problema para execução do docker-compose. \
