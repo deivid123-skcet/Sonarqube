@@ -22,10 +22,10 @@ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ## Configurar Limits no Sistema Operacional | Obs: Validos somente para linux
 1 - Um dos pré requisitos para instalação é ajuste em alguns limits do linux, sendo eles:
 
-vm.max_map_count is greater than or equal to 524288
-fs.file-max is greater than or equal to 131072
-the user running SonarQube can open at least 131072 file descriptors
-the user running SonarQube can open at least 8192 threads
+vm.max_map_count is greater than or equal to 524288 \
+fs.file-max is greater than or equal to 131072 \
+the user running SonarQube can open at least 131072 file descriptors \
+the user running SonarQube can open at least 8192 threads \
 
 para atualizar os dois primeiros valores é necessario editar o arquivo /etc/sysctl.conf e inserir as seguintes linhas:
 
