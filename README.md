@@ -7,7 +7,7 @@ sudo apt install docker docker-compose
 ### Instalação do Docker e Docker compose no centos:
 
 Docker: \
-yum-config-manager  https://download.docker.com/linux/centos/docker-ce.repo 
+yum-config-manager  https://download.docker.com/linux/centos/docker-ce.repo \
 yum install docker-ce
 
 Docker Compose: \
