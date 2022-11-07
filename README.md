@@ -25,7 +25,7 @@ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 vm.max_map_count is greater than or equal to 524288 \
 fs.file-max is greater than or equal to 131072 \
 the user running SonarQube can open at least 131072 file descriptors \
-the user running SonarQube can open at least 8192 threads \
+the user running SonarQube can open at least 8192 threads 
 
 para atualizar os dois primeiros valores é necessario editar o arquivo /etc/sysctl.conf e inserir as seguintes linhas:
 
